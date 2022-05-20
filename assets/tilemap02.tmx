@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="100" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="63">
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="100" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="64">
  <editorsettings>
   <export target="tilemap02.json" format="json"/>
  </editorsettings>
@@ -5310,7 +5310,7 @@
 1,1,1,1,1,1,1,1,1,1,1,71,1,1,1,71,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,71,1,1,1,1,1,1,1,1,1,1,1,1,1,1,71,1,71,1,1,1,1,1,1,1,1,1,1,71,1,1,1,1,1,1,1,1,1,1,1,1,1,71,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,71,1,1,1,1,1,1,1,1
 </data>
  </layer>
- <layer id="2" name="Ground" width="100" height="20">
+ <layer id="2" name="Ground" width="100" height="20" locked="1">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -5358,7 +5358,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="Objects" locked="1">
+ <objectgroup id="4" name="Objects">
   <object id="1" name="P1 Spawn" x="55.9042" y="237.319">
    <point/>
   </object>
@@ -5397,5 +5397,6 @@
   <object id="40" name="coin" gid="215" x="928" y="176" width="16" height="16"/>
   <object id="41" name="coin" gid="215" x="912" y="176" width="16" height="16"/>
   <object id="42" name="coin" gid="215" x="896" y="176" width="16" height="16"/>
+  <object id="63" name="bluePowerUp" gid="514" x="272" y="158" width="16" height="16"/>
  </objectgroup>
 </map>
